@@ -1,0 +1,268 @@
+/*
+Theme Name:     Evolution Child
+Description:    Thème enfant du thème Evolution d’elegantthemes.com
+Author:         Nico
+Template:       Evolution
+*/
+
+@import url("../Evolution/style.css");
+
+
+/* Personnalisations par Nicolas*/
+
+.sf-sub-indicator{ display: none; }
+#search-form #searchinput { color: black; }
+
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #555;z
+
+}
+
+strong {
+    color: rgb(85, 85, 85) !important;
+}
+
+#page-wrap{ background: #f1fbec url( "images/bkg.png" ) repeat-x !important; }
+
+p#copyright { border-top: 0px solid transparent; float:none; text-align:center; }
+p#copyright a { color:inherit; }
+
+#breadcrumbs{ display: none; }
+.screen-reader-text{ display: none; }
+#main-footer{ border-top: none; }
+
+article p, article li { text-align: justify; }
+
+a {
+    color:#1871a4 ;
+}
+h3.widgettitle {
+/*     border-bottom: 1px dotted #aaa; */
+    padding: 10px 0 5px 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+sup, sub {
+	height : 0;
+	line-height : 1;
+	vertical-align : baseline;
+	position : relative;
+	font-size: 0.65em;
+}
+sup {
+	bottom : 1ex;
+}
+sub {
+	top : 0.5ex;
+}
+
+/* bannière */
+div.top-info {
+	text-align: left !important;
+	margin-bottom: 1.0cm;
+	margin-top: 0.7cm;
+	padding-left: 1.0cm;
+}
+
+#sidebar { float: left; width: 194px; padding: 40px 0 0 54px; }
+
+/* nav#top-menu ul.sub-menu{ background-color: rgb(222, 255, 214); } */
+nav#top-menu ul.sub-menu{ background-color: #f1fbec; }
+
+#top-menu > ul > li.current-menu-item > a { color: rgb(54, 181, 51) !important; font-family: inherit; font-style: normal; }
+ul.nav ul li a { padding: 10px 0px 5px 5px !important;  }
+
+nav#top-menu * {
+	font-size: 12px;
+	font-weight: bold;
+	color: rgb( 85, 85, 85 );
+}
+nav#top-menu a:hover {
+	color: rgb(54, 181, 51) !important;
+}
+
+/* .entry { border-bottom: 1px dotted rgb(170, 170, 170); } */
+.entry { border-bottom: none; }
+
+h1, h2, h3, h4, h5, h6 { font-family: Verdana !important; font-weight: bold; font-style: normal !important; color: rgb(85, 85, 85) !important;}
+h1{ font-size: 28px; }
+
+
+h2 {
+    color: #229be1 !important;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 10px 0 5px 0;
+    border-bottom: 1px dotted #aaa;
+    margin-bottom: 10px;
+    margin-top:1em;
+    text-align:left;
+}
+h2 a {
+    color: #B0FFBD;
+    text-decoration: none;
+}
+h2 a:hover {
+    color: #eee;
+}
+h3 {
+	color: #229be1 !important;
+    font-size: 16px !important;
+}
+
+body.page-template-page-full-php h1 { text-align: center; }
+
+.citation {
+text-indent:1em;
+font: normal normal 400 100%/1.5em georgia,serif;
+color: #9C6F4D;
+}
+
+
+
+/* Pour l’article prévention grippe */
+
+table.recommandations {
+    margin-top: 3em;
+}
+
+table.recommandations h3 {
+    color: rgb(85, 85, 85) !important;
+}
+
+
+table.recommandations td {
+    vertical-align: top;
+    text-align: left;
+    height: 3em;
+    margin: 0;
+    padding: 0.1em;
+}
+
+table.recommandations .td1 h2 {
+    padding: 0;
+    border: none;
+    text-align: center;
+}
+
+table.recommandations td.titre {
+/*    border-top: 1px dotted;*/
+	border-top: 1px solid;
+    height: 1em;
+}
+
+table.recommandations td.td1 {
+    width: 2.2em;
+}
+
+table.recommandations td.td2 {
+    width: 25em;
+}
+
+table.recommandations td.td3 {
+    text-align: right !important;
+}
+
+table.recommandations tr.pas_haut td {
+    height: 1.5em;
+}
+
+table.recommandations .non-gras {
+    font-weight: normal;
+}
+
+table.recommandations .invisible {
+    display: none;
+}
+
+table.recommandations h2 {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding-top: 0em;
+}
+
+table.recommandations p {
+    margin-left: 0em;
+    margin-top: 0em;
+    margin-bottom: 0.3em;
+}
+
+
+
+/* Pour l’article homéopathie*/
+table.equiv_therap {
+    border-collapse: collapse;
+/* font-size: 10px; */
+    margin-bottom: 4em;
+}
+table.equiv_therap th, table.equiv_therap tr td, table.equiv_therap tr {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    text-align: center;
+    width:200px;
+}
+/*
+  nth-child is a css3 pseudo-class that is currently not supported by ie7 and ff3.05
+  It is also not recognized by the w3 validator :( http://jigsaw.w3.org/css-validator/validator ):
+ */
+table.equiv_therap tbody tr:nth-child(2n+1) {
+    background: #CCF5C2;
+    color: inherit;
+}
+table.equiv_therap tbody tr:nth-child(2n) {
+    background: transparent;
+    color: inherit;
+}
+table.equiv_therap th {
+    border-bottom: 1px solid black;
+}
+
+
+
+.drop_cap
+{
+	font-size: 280%;
+	float: left;
+	margin-right: 1%;
+	margin-top: 2.2%;
+	display: block;
+	line-height: 35%;
+	padding: 0;
+	font-style: normal;
+}
+
+.columns2 {
+	-moz-column-count: 2;
+	-moz-column-gap: 20px;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 20px;
+	column-count: 2;
+	column-gap: 20px;
+}
+
+
+@media print
+{
+	body *{
+		color: #222;
+		color:red !important;
+	}
+
+#page-wrap{ background: red url( "images/bkg.png" ) repeat-x !important; }
+
+div#sidebar {
+    display:none;
+}
+.no-print {
+	display: none;
+}
+
+div#navigation {
+	display: none;
+}
+}
